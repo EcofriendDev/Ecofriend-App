@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "target": "ES6",
+    "module": "CommonJS",
+    "jsx": "react-native",
+    "lib": ["ES6", "ESNext.AsyncIterable"],
+    "strict": false,
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["./components/*"],
+      "@/screens/*": ["./screens/*"],
+      "@/assets/*": ["./assets/*"],
+      "@/services/*": ["./services/*"],
+      "@/*": ["./*"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
