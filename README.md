@@ -1,4 +1,4 @@
-# Recommended next steps:
+# Ecofriend App Setup:
 
 Note: Make sure you have installed native code dependencies [here](https://reactnative.dev/docs/environment-setup#installing-dependencies)
 
